@@ -49,9 +49,20 @@ O aplicativo atua como a interface principal do usuário, conectando-se diretame
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="assets/images/home.jpeg" alt="Tela Principal" width="220" />
-  
-  &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/images/alerta.jpeg" alt="Alerta Ativo" width="220" />
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/images/home.jpeg" alt="Tela Principal" width="200" />
+        <br />
+        <sub><b>Tela Principal</b></sub>
+      </td>
+      <td align="center">
+        <img src="assets/images/alerta.jpeg" alt="Alerta Ativo" width="200" />
+        <br />
+        <sub><b>Alerta Ativo</b></sub>
+      </td>
+    </tr>
+  </table>
 </div>
 ---
 
