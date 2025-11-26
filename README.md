@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  <img src="assets/images/icon.png" alt="Logo Visom" width="120" />
 
-## Get started
+  # 🔔 VISOM
+  ### Sistema de Campainha Inteligente e Acessível
 
-1. Install dependencies
+  <p>
+    <img src="https://img.shields.io/badge/Status-MVP%20Funcional-green?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Plataforma-Mobile%20(iOS%20%26%20Android)-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Tech-React%20Native%20%7C%20Expo-61DAFB?style=for-the-badge&logo=react" />
+  </p>
 
+  <p align="center">
+    O <strong>Visom</strong> é uma solução de tecnologia assistiva projetada para promover a autonomia de pessoas com deficiência auditiva e visual. O sistema transforma uma campainha comum em um alerta <strong>multissensorial</strong> (tátil, visual e sonoro) direto no smartphone.
+  </p>
+
+</div>
+
+---
+
+## 📱 Funcionalidades
+
+O aplicativo atua como a interface principal do usuário, conectando-se diretamente ao hardware (ESP32) via rede local.
+
+| Recurso | Descrição |
+| :--- | :--- |
+| 📳 **Alerta Tátil** | Vibração intensa e padronizada para alertar deficientes auditivos (uso da API Haptics). |
+| 🔦 **Alerta Visual** | Interface de alto contraste e acionamento do Flash LED (via configurações de acessibilidade). |
+| 🔔 **Notificação Push** | Alertas em tempo real mesmo com o aplicativo em segundo plano. |
+| 📅 **Histórico de Eventos** | Registro automático com data e hora de cada visita detectada. |
+| 📡 **Monitoramento** | Status de conexão em tempo real (Online/Offline) via WebSocket. |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Framework:** [React Native](https://reactnative.dev/)
+* **Ferramenta de Build:** [Expo](https://expo.dev/) (Expo Router)
+* **Linguagem:** TypeScript / JavaScript
+* **Comunicação:** WebSockets (Conexão direta com ESP32)
+* **Bibliotecas Chave:**
+    * `expo-haptics`: Para controle de vibração.
+    * `expo-notifications`: Para alertas locais.
+    * `lucide-react-native`: Ícones visuais.
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://placehold.co/200x400/1e293b/white?text=Home+Screen" width="200" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://placehold.co/200x400/ef4444/white?text=Alerta+Ativo" width="200" />
+</div>
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+Este projeto utiliza o **Expo**. Siga os passos abaixo para executar no seu ambiente:
+
+### Pré-requisitos
+* Node.js instalado
+* Gerenciador de pacotes (NPM ou Yarn)
+* Aplicativo **Expo Go** instalado no celular (Android/iOS)
+
+### Instalação
+
+1. **Clone o repositório:**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/Jota23p/Visom-APP.git](https://github.com/Jota23p/Visom-APP.git)
+   cd Visom-APP
