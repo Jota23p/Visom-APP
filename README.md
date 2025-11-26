@@ -49,11 +49,10 @@ O aplicativo atua como a interface principal do usuário, conectando-se diretame
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="assets/TELA PRINCIPAL.jpeg" alt="Tela Principal" width="220" />
+  <img src="assets/images/home.jpeg" alt="Tela Principal" width="220" />
   
-  &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/ALERTA TELA PRINCIPAL.jpeg" alt="Alerta Ativo" width="220" />
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/images/alerta.jpeg" alt="Alerta Ativo" width="220" />
 </div>
-
 ---
 
 ## 🚀 Como Rodar o Projeto
