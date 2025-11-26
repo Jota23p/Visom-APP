@@ -49,9 +49,9 @@ O aplicativo atua como a interface principal do usuário, conectando-se diretame
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/200x400/1e293b/white?text=Home+Screen" width="200" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://placehold.co/200x400/ef4444/white?text=Alerta+Ativo" width="200" />
+  <img src="assets/TELA PRINCIPAL.jpeg" alt="Tela Principal" width="220" />
+  
+  &nbsp;&nbsp;&nbsp;&nbsp; <img src="assets/ALERTA TELA PRINCIPAL.jpeg" alt="Alerta Ativo" width="220" />
 </div>
 
 ---
